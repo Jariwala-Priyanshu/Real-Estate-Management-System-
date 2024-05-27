@@ -38,43 +38,36 @@ if(isset($_POST['update']))
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <title>LM HOMES | About</title>
 		
-		<!-- Favicon -->
+		
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 		
-		<!-- Bootstrap CSS -->
+		
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		
-		<!-- Fontawesome CSS -->
+		
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		
-		<!-- Feathericon CSS -->
+		
         <link rel="stylesheet" href="assets/css/feathericon.min.css">
 		
-		<!-- Select2 CSS -->
+		
 		<link rel="stylesheet" href="assets/css/select2.min.css">
 		
-		<!-- Main CSS -->
+		
         <link rel="stylesheet" href="assets/css/style.css">
 		
-		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.min.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
+		
     </head>
     <body>
 	
-		<!-- Main Wrapper -->
 		
-			<!-- Header -->
 			<?php include("header.php"); ?>
-			<!-- /Sidebar -->
 			
-			<!-- Page Wrapper -->
             <div class="page-wrapper">
 			
 				<div class="content container-fluid">
 
-					<!-- Page Header -->
+				
 					<div class="page-header">
 						<div class="row">
 							<div class="col">
@@ -86,7 +79,7 @@ if(isset($_POST['update']))
 							</div>
 						</div>
 					</div>
-					<!-- /Page Header -->
+				
 					
 					<div class="row">
 						<div class="col-md-12">
@@ -138,24 +131,23 @@ if(isset($_POST['update']))
 					
 				</div>
 			</div>
-			<!-- /Page Wrapper -->
-		<!-- /Main Wrapper -->
+		
 		<script src="assets/plugins/tinymce/tinymce.min.js"></script>
 		<script src="assets/plugins/tinymce/init-tinymce.min.js"></script>
-		<!-- jQuery -->
+		
         <script src="assets/js/jquery-3.2.1.min.js"></script>
 		
-		<!-- Bootstrap Core JS -->
+		
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
 		
-		<!-- Slimscroll JS -->
+		
         <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 		
-		<!-- Select2 JS -->
+		
 		<script src="assets/js/select2.min.js"></script>
 		
-		<!-- Custom JS -->
+		
 		<script  src="assets/js/script.js"></script>
     </body>
 
