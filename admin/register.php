@@ -40,26 +40,23 @@ if(isset($_REQUEST['insert']))
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <title>Ventura - Register</title>
 		
-		<!-- Favicon -->
+		
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 
-		<!-- Bootstrap CSS -->
+		
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		
-		<!-- Fontawesome CSS -->
+		
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		
-		<!-- Main CSS -->
+		
         <link rel="stylesheet" href="assets/css/style.css">
 		
-		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.min.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
+		
     </head>
     <body>
 	
-		<!-- Main Wrapper -->
+		
         <div class="page-wrappers login-body">
             <div class="login-wrapper">
             	<div class="container">
@@ -92,14 +89,14 @@ if(isset($_REQUEST['insert']))
 										<input class="btn btn-primary btn-block" type="submit" name="insert" Value="Register">
 									</div>
 								</form>
-								<!-- /Form -->
+								
 								
 								<div class="login-or">
 									<span class="or-line"></span>
 									<span class="span-or">or</span>
 								</div>
 								
-								<!-- Social Login -->
+								
 								<div class="social-login">
 									<span>Register with</span>
 									<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -107,7 +104,7 @@ if(isset($_REQUEST['insert']))
 									<a href="#" class="facebook"><i class="fa fa-twitter"></i></a>
 									<a href="#" class="google"><i class="fa fa-instagram"></i></a>
 								</div>
-								<!-- /Social Login -->
+								
 								
 								<div class="text-center dont-have">Already have an account? <a href="index.php">Login</a></div>
 							</div>
@@ -116,16 +113,14 @@ if(isset($_REQUEST['insert']))
                 </div>
             </div>
         </div>
-		<!-- /Main Wrapper -->
 		
-		<!-- jQuery -->
         <script src="assets/js/jquery-3.2.1.min.js"></script>
 		
-		<!-- Bootstrap Core JS -->
+		
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
 		
-		<!-- Custom JS -->
+		
 		<script src="assets/js/script.js"></script>
 		
     </body>
