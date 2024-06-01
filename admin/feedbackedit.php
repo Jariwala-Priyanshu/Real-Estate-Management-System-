@@ -7,7 +7,7 @@ if(!isset($_SESSION['auser']))
 	header("location:index.php");
 }
 
-//// add code
+
 
 $msg="";
 if(isset($_POST['update']))
@@ -36,7 +36,7 @@ if(isset($_POST['update']))
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-        <title>LM HOMES | About</title>
+        <title>JP HOMES | About</title>
 		
 		
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
