@@ -1,7 +1,7 @@
 <?php
 session_start();
 require("config.php");
-////code
+
  
 if(!isset($_SESSION['auser']))
 {
@@ -47,7 +47,7 @@ if(!isset($_SESSION['auser']))
             <div class="page-wrapper">
                 <div class="content container-fluid">
 
-					<!-- Page Header -->
+					
 					<div class="page-header">
 						<div class="row">
 							<div class="col">
