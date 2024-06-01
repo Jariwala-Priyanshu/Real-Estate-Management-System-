@@ -22,7 +22,11 @@ if(!isset($_SESSION['auser']))
 		
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		
+<<<<<<< HEAD
 	
+=======
+		
+>>>>>>> cd6389ca4bdef34732ed8874eb594efc69fb838e
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		
 		
@@ -38,12 +42,19 @@ if(!isset($_SESSION['auser']))
 		
             <?php include("header.php");?>
 			
+<<<<<<< HEAD
 			
 			
             <div class="page-wrapper">
                 <div class="content container-fluid">
 					
 				
+=======
+            <div class="page-wrapper">
+                <div class="content container-fluid">
+					
+					
+>>>>>>> cd6389ca4bdef34732ed8874eb594efc69fb838e
 					<div class="page-header">
 						<div class="row">
 							<div class="col">
@@ -89,7 +100,11 @@ if(!isset($_SESSION['auser']))
 									<li class="nav-item">
 										<a class="nav-link active" data-toggle="tab" href="#per_details_tab">About</a>
 									</li>
+<<<<<<< HEAD
 							
+=======
+								
+>>>>>>> cd6389ca4bdef34732ed8874eb594efc69fb838e
 								</ul>
 							</div>	
 							<div class="tab-content profile-tab-cont">
@@ -135,12 +150,20 @@ if(!isset($_SESSION['auser']))
 													<button class="btn btn-success" type="button"><i class="fe fe-check-verified"></i> Active</button>
 												</div>
 											</div>
+<<<<<<< HEAD
 										
+=======
+											
+>>>>>>> cd6389ca4bdef34732ed8874eb594efc69fb838e
 
 											
 										</div>
 									</div>
+<<<<<<< HEAD
 								
+=======
+									
+>>>>>>> cd6389ca4bdef34732ed8874eb594efc69fb838e
 
 								</div>
 								<!-- /Personal Details Tab -->
@@ -181,21 +204,17 @@ if(!isset($_SESSION['auser']))
 				<?php } ?>
 				</div>			
 			</div>
-			<!-- /Page Wrapper -->
-
-		<!-- /Main Wrapper -->
-		
-		<!-- jQuery -->
+			
         <script src="assets/js/jquery-3.2.1.min.js"></script>
 		
-		<!-- Bootstrap Core JS -->
+		
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
 		
-		<!-- Slimscroll JS -->
+		
         <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 		
-		<!-- Custom JS -->
+		
 		<script  src="assets/js/script.js"></script>
 		
     </body>

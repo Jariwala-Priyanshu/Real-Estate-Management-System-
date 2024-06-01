@@ -1,15 +1,14 @@
 <?php
 session_start();
 require("config.php");
-////code
+
  
 if(!isset($_SESSION['auser']))
 {
 	header("location:index.php");
 }
 
-//// code insert
-//// add code
+
 $error="";
 $msg="";
 if(isset($_POST['add']))
@@ -95,7 +94,7 @@ if(isset($_POST['add']))
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-        <title>LM HOMES | Property</title>
+        <title>JP HOMES | Property</title>
 		
 		
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -117,15 +116,13 @@ if(isset($_POST['add']))
     <body>
 
 		
-			<!-- Header -->
-			<?php include("header.php"); ?>
-			<!-- /Sidebar -->
 			
-			<!-- Page Wrapper -->
+			<?php include("header.php"); ?>
+			
             <div class="page-wrapper">
                 <div class="content container-fluid">
 				
-					<!-- Page Header -->
+					
 					<div class="page-header">
 						<div class="row">
 							<div class="col">
@@ -137,7 +134,7 @@ if(isset($_POST['add']))
 							</div>
 						</div>
 					</div>
-					<!-- /Page Header -->
+					
 					
 					<div class="row">
 						<div class="col-md-12">
@@ -455,21 +452,18 @@ if(isset($_POST['add']))
 				
 				</div>			
 			</div>
-			<!-- /Main Wrapper -->
-
-		
-		<!-- jQuery -->
+			
         <script src="assets/js/jquery-3.2.1.min.js"></script>
 		<script src="assets/plugins/tinymce/tinymce.min.js"></script>
 		<script src="assets/plugins/tinymce/init-tinymce.min.js"></script>
-		<!-- Bootstrap Core JS -->
+		
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
 		
-		<!-- Slimscroll JS -->
+		
         <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 		
-		<!-- Custom JS -->
+		
 		<script  src="assets/js/script.js"></script>
 		
     </body>
