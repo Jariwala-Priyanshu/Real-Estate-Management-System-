@@ -80,7 +80,7 @@ if(isset($_POST['addabout']))
 								<h3 class="page-title">About</h3>
 								<ul class="breadcrumb">
 									<li class="breadcrumb-item"><a href="dashboard.php">Dashboard</a></li>
-									<li class="breadcrumb-item active">About</li>
+									<li class="breadcrumb-item active">About </li>
 								</ul>
 							</div>
 						</div>
