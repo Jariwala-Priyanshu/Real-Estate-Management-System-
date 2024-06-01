@@ -1,7 +1,7 @@
 <?php
 session_start();
 require("config.php");
-////code
+
  
 if(!isset($_SESSION['auser']))
 {
@@ -16,40 +16,34 @@ if(!isset($_SESSION['auser']))
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <title>JP HOMES | Profile</title>
 		
-		<!-- Favicon -->
+		
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 		
-		<!-- Bootstrap CSS -->
+		
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		
-		<!-- Fontawesome CSS -->
+	
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		
-		<!-- Feathericon CSS -->
+		
         <link rel="stylesheet" href="assets/css/feathericon.min.css">
 		
-		<!-- Main CSS -->
+		
         <link rel="stylesheet" href="assets/css/style.css">
 		
-		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.min.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
+		
     </head>
     <body>
 	
-		<!-- Main Wrapper -->
-
 		
-			<!-- Header -->
             <?php include("header.php");?>
-			<!-- /Header -->
 			
-			<!-- Page Wrapper -->
+			
+			
             <div class="page-wrapper">
                 <div class="content container-fluid">
 					
-					<!-- Page Header -->
+				
 					<div class="page-header">
 						<div class="row">
 							<div class="col">
@@ -61,7 +55,7 @@ if(!isset($_SESSION['auser']))
 							</div>
 						</div>
 					</div>
-					<!-- /Page Header -->
+					
 					
 					<div class="row">
 						<?php
@@ -95,17 +89,15 @@ if(!isset($_SESSION['auser']))
 									<li class="nav-item">
 										<a class="nav-link active" data-toggle="tab" href="#per_details_tab">About</a>
 									</li>
-								<!--	<li class="nav-item">
-										<a class="nav-link" data-toggle="tab" href="#password_tab">Password</a>
-									</li>  -->
+							
 								</ul>
 							</div>	
 							<div class="tab-content profile-tab-cont">
 								
-								<!-- Personal Details Tab -->
+								
 								<div class="tab-pane fade show active" id="per_details_tab">
 								
-									<!-- Personal Details -->
+									
 									<div class="row">
 										<div class="col-lg-9">
 											<div class="card">
@@ -133,7 +125,7 @@ if(!isset($_SESSION['auser']))
 
 										<div class="col-lg-3">
 											
-											<!-- Account Status -->
+											
 											<div class="card">
 												<div class="card-body">
 													<h5 class="card-title d-flex justify-content-between">
@@ -143,12 +135,12 @@ if(!isset($_SESSION['auser']))
 													<button class="btn btn-success" type="button"><i class="fe fe-check-verified"></i> Active</button>
 												</div>
 											</div>
-											<!-- /Account Status -->
+										
 
 											
 										</div>
 									</div>
-									<!-- /Personal Details -->
+								
 
 								</div>
 								<!-- /Personal Details Tab -->

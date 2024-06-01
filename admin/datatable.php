@@ -303,11 +303,11 @@ if(!isset($_SESSION['auser']))
                                             </tbody>
                                         </table>
                                         
-                                    </div> <!-- end card body-->
-                                </div> <!-- end card -->
-                            </div><!-- end col-->
+                                    </div> 
+                                </div> 
+                            </div>
                         </div>
-                        <!-- end row-->
+                       
 					
 					
 					<div class="row">
