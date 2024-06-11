@@ -13,4 +13,3 @@ else{
 	header("Location:propertyview.php?msg=$msg");
 }
 mysqli_close($con);
-?>
