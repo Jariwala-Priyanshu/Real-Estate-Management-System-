@@ -13,4 +13,4 @@ else{
 	header("Location:cityadd.php?msg=$msg");
 }
 mysqli_close($con);
-?>
+
