@@ -13,4 +13,4 @@ else{
 	header("Location:stateadd.php?msg=$msg");
 }
 mysqli_close($con);
-?>
+
