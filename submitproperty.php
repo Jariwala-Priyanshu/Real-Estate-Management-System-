@@ -115,22 +115,12 @@ if(isset($_POST['add']))
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/login.css">
 
-<!--	Title
-	=========================================================-->
+
 <title>Real Estate PHP</title>
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
-<div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
-	<div class="d-flex justify-content-center y-middle position-relative">
-	  <div class="spinner-border" role="status">
-		<span class="sr-only">Loading...</span>
-	  </div>
-	</div>
-</div>
---> 
+
 
 
 <div id="page-wrapper">
@@ -344,8 +334,13 @@ if(isset($_POST['add']))
 										
 										<div class="form-group row">
 											<label class="col-lg-2 col-form-label">Feature</label>
-											<div class="col-lg-9">
-											<p class="alert alert-danger">* Important Please Do Not Remove Below Content Only Change <b>Yes</b> Or <b>No</b> or Details and Do Not Add More Details</p>
+											<- class="col-lg-9">
+											
+											
+										
+											
+										
+											
 											
 											<textarea class="tinymce form-control" name="feature" rows="10" cols="30">
 												
