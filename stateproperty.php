@@ -144,11 +144,11 @@ include("config.php");
         </div>
 
         
-        <!--	Footer   start-->
-		<?php include("include/footer.php");?>
-		<!--	Footer   start-->
         
-        <!-- Scroll to top --> 
+		<?php include("include/footer.php");?>
+		
+        
+        
         <a href="#" class="bg-secondary text-white hover-text-secondary" id="scroll"><i class="fas fa-angle-up"></i></a> 
         <!-- End Scroll To top --> 
     </div>
