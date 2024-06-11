@@ -373,7 +373,7 @@ if(isset($_POST['add']))
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Status</label>
 													<div class="col-lg-9">
-														<select class="form-control"  required name="status">
+														<select class="form-control"  required name="status"></select>
 															<option value="">Select Status</option>
 															<option value="available">Available</option>
 															<option value="sold out">Sold Out</option>
