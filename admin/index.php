@@ -53,8 +53,7 @@
 		
     </head>
     <body>
-	
-	
+
         <div class="page-wrappers login-body">
             <div class="login-wrapper">
             	<div class="container">
@@ -64,7 +63,6 @@
 								<h1>Admin Login Panel</h1>
 								<p class="account-subtitle">Access to our dashboard</p>
 								<p style="color:red;"><?php echo $error; ?></p>
-								
 								<form method="post">
 									<div class="form-group">
 										<input class="form-control" name="user" type="text" placeholder="User Name">
