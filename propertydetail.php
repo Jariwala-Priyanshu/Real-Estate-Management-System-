@@ -9,25 +9,23 @@ include("config.php");
 <html lang="en">
 
 <head>
-<!-- Required meta tags -->
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Meta Tags --><!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Real Estate PHP">
 <meta name="keywords" content="">
 <meta name="author" content="Unicoder">
 <link rel="shortcut icon" href="images/favicon.ico">
 
-<!--	Fonts
-	========================================================-->
+
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 
-<!--	Css Link
-	========================================================-->
+
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-slider.css">
 <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
@@ -38,31 +36,19 @@ include("config.php");
 <link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<!--	Title
-	=========================================================-->
+
 <title>Real Estate PHP</title>
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
-<div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
-	<div class="d-flex justify-content-center y-middle position-relative">
-	  <div class="spinner-border" role="status">
-		<span class="sr-only">Loading...</span>
-	  </div>
-	</div>
-</div>
---> 
+
 
 
 <div id="page-wrapper">
     <div class="row"> 
-        <!--	Header start  -->
-		<?php include("include/header.php");?>
-        <!--	Header end  -->
         
-        <!--	Banner   --->
+		<?php include("include/header.php");?>
+        
         <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
             <div class="container">
                 <div class="row">
@@ -80,12 +66,12 @@ include("config.php");
                 </div>
             </div>
         </div>
-         <!--	Banner   --->
+       
 
 		
         <div class="full-row">
             <div class="container">
-                <div class="row"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                <div class="row">
 				
 					<?php
 						$id=$_REQUEST['pid']; 
@@ -99,19 +85,19 @@ include("config.php");
                         <div class="row">
                             <div class="col-md-12">
                                 <div id="single-property" style="width:1200px; height:700px; margin:30px auto 50px;"> 
-                                    <!-- Slide 1-->
+                                  
                                     <div class="ls-slide" data-ls="duration:7500; transition2d:5; kenburnszoom:in; kenburnsscale:1.2;"> <img width="1920" height="1080" src="admin/property/<?php echo $row['18'];?>" class="ls-bg" alt="" /> </div>
                                     
-                                    <!-- Slide 2-->
+                                   
                                     <div class="ls-slide" data-ls="duration:7500; transition2d:5; kenburnszoom:in; kenburnsscale:1.2;"> <img width="1920" height="1080" src="admin/property/<?php echo $row['19'];?>" class="ls-bg" alt="" /> </div>
                                     
-                                    <!-- Slide 3-->
+                                  
                                     <div class="ls-slide" data-ls="duration:7500; transition2d:5; kenburnszoom:in; kenburnsscale:1.2;"> <img width="1920" height="1080" src="admin/property/<?php echo $row['20'];?>" class="ls-bg" alt="" /> </div>
 									
-									<!-- Slide 4-->
+									
 									<div class="ls-slide" data-ls="duration:7500; transition2d:5; kenburnszoom:in; kenburnsscale:1.2;"> <img width="1920" height="1080" src="admin/property/<?php echo $row['21'];?>" class="ls-bg" alt="" /> </div>
 									
-									<!-- Slide 5-->
+									
 									<div class="ls-slide" data-ls="duration:7500; transition2d:5; kenburnszoom:in; kenburnsscale:1.2;"> <img width="1920" height="1080" src="admin/property/<?php echo $row['22'];?>" class="ls-bg" alt="" /> </div>
                                 </div>
                             </div>
@@ -143,7 +129,7 @@ include("config.php");
                             
                             <h5 class="mt-5 mb-4 text-secondary">Property Summary</h5>
                             <div  class="table-striped font-14 pb-2">
-                                <table class="w-100"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                                <table class="w-100">
                                     <tbody>
                                         <tr>
                                             <td>BHK :</td>
@@ -172,7 +158,7 @@ include("config.php");
 								<?php echo $row['17'];?>
 								
                             </div>   
-							<!-- FOR MORE PROJECTS visit: codeastro.com -->
+							
                             <h5 class="mt-5 mb-4 text-secondary">Floor Plans</h5>
                             <div class="accordion" id="accordionExample">
                                 <button class="bg-gray hover-bg-success hover-text-white text-ordinary py-3 px-4 mb-1 w-100 text-left rounded position-relative" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Floor Plans </button>
@@ -218,37 +204,7 @@ include("config.php");
 					<?php } ?>
 					
                     <div class="col-lg-4">
-                        <!-- <h4 class="double-down-line-left text-secondary position-relative pb-4 mb-4 mt-md-50">Send Message</h4>
-                        <form method="post" action="#">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Enter Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Enter Email">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Enter Phone">
-                                    </div>
-                                </div>
-								<div class="col-md-12">
-                                    <div class="form-group">
-										<textarea class="form-control" placeholder="Enter Message"></textarea>
-                                    </div>
-                                </div>
-								
-                                <div class="col-md-12">
-                                    <div class="form-group mt-4">
-                                        <button type="submit" class="btn btn-success w-100">Search Property</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form> -->
+                        
                         <h4 class="double-down-line-left text-secondary position-relative pb-4 my-4">Instalment Calculator</h4>
                         <form class="d-inline-block w-100" action="calc.php" method="post">
                             <label class="sr-only">Property Amount</label>
@@ -314,26 +270,23 @@ include("config.php");
             </div>
         </div>
 
-         <!--	Footer   start-->
+       
 		<?php include("include/footer.php");?>
-		<!--	Footer   start-->
+		
         
         
-        <!-- Scroll to top --> 
+       
         <a href="#" class="bg-secondary text-white hover-text-secondary" id="scroll"><i class="fas fa-angle-up"></i></a> 
-        <!-- End Scroll To top --> 
+        
     </div>
 </div>
-<!-- Wrapper End --> 
 
-<!--	Js Link
-============================================================--> 
 <script src="js/jquery.min.js"></script> 
-<!--jQuery Layer Slider --> 
+
 <script src="js/greensock.js"></script> 
 <script src="js/layerslider.transitions.js"></script> 
 <script src="js/layerslider.kreaturamedia.jquery.js"></script> 
-<!--jQuery Layer Slider --> 
+
 <script src="js/popper.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/owl.carousel.min.js"></script> 
