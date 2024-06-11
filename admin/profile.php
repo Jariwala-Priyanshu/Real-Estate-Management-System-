@@ -150,7 +150,7 @@ if(!isset($_SESSION['auser']))
 								<!-- /Personal Details Tab -->
 								
 								<!-- Change Password Tab -->
-								<!--<div id="password_tab" class="tab-pane fade">
+								<div id="password_tab" class="tab-pane fade">
 								
 									<div class="card">
 										<div class="card-body">
@@ -176,7 +176,7 @@ if(!isset($_SESSION['auser']))
 											</div>
 										</div>
 									</div>
-								</div>  -->
+								</div>  
 								<!-- /Change Password Tab -->
 								
 							</div>
