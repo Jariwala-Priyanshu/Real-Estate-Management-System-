@@ -1,7 +1,7 @@
 <?php
 session_start();
 require("config.php");
-////code
+
  
 if(!isset($_SESSION['auser']))
 {
@@ -116,7 +116,7 @@ if(isset($_POST['add']))
             <div class="page-wrapper">
                 <div class="content container-fluid">
 				
-					<!-- Page Header -->
+					
 					<div class="page-header">
 						<div class="row">
 							<div class="col">
@@ -315,7 +315,7 @@ if(isset($_POST['add']))
 											<p class="alert alert-danger">* Important Please Do Not Remove Below Content Only Change <b>Yes</b> Or <b>No</b> or Details and Do Not Add More Details</p>
 											
 											<textarea class="tinymce form-control" name="feature" rows="10" cols="30">
-												<!---feature area start--->
+												
 												<div class="col-md-4">
 														<ul>
 														<li class="mb-3"><span class="text-secondary font-weight-bold">Property Age : </span>10 Years</li>
@@ -341,7 +341,7 @@ if(isset($_POST['add']))
 														<li class="mb-3"><span class="text-secondary font-weight-bold">Water Supply : </span>Ground Water / Tank</li>
 														</ul>
 													</div>
-												<!---feature area end---->
+											
 											</textarea>
 											</div>
 										</div>
