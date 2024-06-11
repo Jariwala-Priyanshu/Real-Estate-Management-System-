@@ -13,4 +13,4 @@ else{
 	header("Location:contactview.php?msg=$msg");
 }
 mysqli_close($con);
-?>
+
