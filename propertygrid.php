@@ -4,31 +4,29 @@ session_cache_limiter(false);
 session_start();
 include("config.php");
 
-///search code
+
 	
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Required meta tags -->
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Meta Tags -->
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Real Estate PHP">
 <meta name="keywords" content="">
 <meta name="author" content="Unicoder">
 <link rel="shortcut icon" href="images/favicon.ico">
 
-<!--	Fonts
-	========================================================-->
+
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 
-<!--	Css Link
-	========================================================-->
+
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-slider.css">
 <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
@@ -39,31 +37,19 @@ include("config.php");
 <link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<!--	Title
-	=========================================================-->
+
 <title>Real Estate PHP</title>
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
-<div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
-	<div class="d-flex justify-content-center y-middle position-relative">
-	  <div class="spinner-border" role="status">
-		<span class="sr-only">Loading...</span>
-	  </div>
-	</div>
-</div>
---> 
+
 
 
 <div id="page-wrapper">
     <div class="row"> 
-        <!--	Header start  -->
-		<?php include("include/header.php");?>
-        <!--	Header end  -->
         
-        <!--	Banner   --->
+		<?php include("include/header.php");?>
+        
         <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
             <div class="container">
                 <div class="row">
@@ -81,11 +67,7 @@ include("config.php");
                 </div>
             </div>
         </div>
-         <!--	Banner   --->
         
-        <!--	Property Grid
-		===============================================================-->
-        <div class="full-row">
             <div class="container">
                 <div class="row">
 				
@@ -101,8 +83,7 @@ include("config.php");
 								$city=$_REQUEST['city'];
 								
 								$sql="SELECT property.*, user.uname FROM `property`,`user` WHERE property.uid=user.uid and type='{$type}' and stype='{$stype}' and city='{$city}'";
-								//SELECT * FROM `property` WHERE type='office' or type='office' and stype='sale' or stype='rent' and city='valsad' OR state='mumbai'
-								//SELECT * FROM `property` WHERE type='office' and stype='sale'  and city='valsad' OR state='mumbai'
+								
 								$result=mysqli_query($con,$sql);
 							
 								if(mysqli_num_rows($result)>0)
@@ -149,19 +130,7 @@ include("config.php");
 
                             
                             
-                        <!--    <div class="col-md-12">
-                                <nav aria-label="Page navigation">
-                                    <ul class="pagination justify-content-center mt-4">
-                                        <li class="page-item disabled"> <span class="page-link">Previous</span> </li>
-                                        <li class="page-item active" aria-current="page"> <span class="page-link"> 1 <span class="sr-only">(current)</span> </span> </li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item">...</li>
-                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                        <li class="page-item"> <a class="page-link" href="#">Next</a> </li>
-                                    </ul>
-                                </nav>
-                            </div>  -->
+                       
                         </div>
                     </div>
 					
@@ -219,25 +188,22 @@ include("config.php");
         </div>
 
         
-        <!--	Footer   start-->
-		<?php include("include/footer.php");?>
-		<!--	Footer   start-->
         
-        <!-- Scroll to top --> 
+		<?php include("include/footer.php");?>
+	
+        
+       
         <a href="#" class="bg-secondary text-white hover-text-secondary" id="scroll"><i class="fas fa-angle-up"></i></a> 
-        <!-- End Scroll To top --> 
+       
     </div>
 </div>
-<!-- Wrapper End --> 
-
-<!--	Js Link
-============================================================--> 
+ 
 <script src="js/jquery.min.js"></script> 
-<!--jQuery Layer Slider --> 
+
 <script src="js/greensock.js"></script> 
 <script src="js/layerslider.transitions.js"></script> 
 <script src="js/layerslider.kreaturamedia.jquery.js"></script> 
-<!--jQuery Layer Slider --> 
+
 <script src="js/popper.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/owl.carousel.min.js"></script> 
