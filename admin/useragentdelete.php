@@ -2,7 +2,7 @@
 include("config.php");
 $uid = $_GET['id'];
 
-// view code//
+
 $sql = "SELECT * FROM user where uid='$uid'";
 $result = mysqli_query($con, $sql);
 while($row = mysqli_fetch_array($result))
