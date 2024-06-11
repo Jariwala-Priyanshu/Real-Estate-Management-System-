@@ -13,4 +13,4 @@ else{
 	header("Location:feedbackview.php?msg=$msg");
 }
 mysqli_close($con);
-?>
+
