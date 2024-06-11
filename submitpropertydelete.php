@@ -13,4 +13,3 @@ else{
 	header("Location:feature.php?msg=$msg");
 }
 mysqli_close($con);
-?>
