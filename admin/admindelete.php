@@ -13,5 +13,5 @@ else{
 	header("Location:adminlist.php?msg=$msg");
 }
 mysqli_close($con);
-?>
+
 
